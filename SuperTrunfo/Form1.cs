@@ -133,11 +133,11 @@ namespace SuperTrunfo
         private void ExibirCartaJogador2()
         {
             LstCartasJogador2.Items.Clear();
-            LstCartasJogador2.Items.Add(jogador1.cartas[0].Nome);
+            LstCartasJogador2.Items.Add(jogador2.cartas[0].Nome);
             LstCartasJogador2.Items.Add("Ataque: " + jogador2.cartas[0].Ataque);
             LstCartasJogador2.Items.Add("Defesa: " + jogador2.cartas[0].Defesa);
             LstCartasJogador2.Items.Add("Magia: " + jogador2.cartas[0].Magia);
-            LblTotalCartasJogador2.Text = jogador1.cartas.Count.ToString();
+            LblTotalCartasJogador2.Text = jogador2.cartas.Count.ToString();
         }
 
         private void FecharRodada()
